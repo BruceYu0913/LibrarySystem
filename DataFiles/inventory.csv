@@ -1,0 +1,5 @@
+PrintedBook,110008,Test Book1,true,2,Test Author1,0000000000,Shelf X
+EBook,120008,Test Book2,true,1,Test Author2,0000000001,xxx.com,30.2,PDF,1748186585
+DVD,210008,Test DVD1,true,3,Test Director1,123,mp4,true
+PrintedBook,10,Book One,true,1,Author,ISBN,Shelf A
+PrintedBook,10,Book One,true,1,Author,ISBN,Shelf A
