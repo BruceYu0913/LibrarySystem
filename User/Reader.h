@@ -19,9 +19,10 @@ class Reader : public User {
   bool ReturnItem(Item* item);
   void ShowBorrowedItems() const;
   bool CanBorrow() const;
+  vector<Item*> GetBorrowedItems() const;
   int GetNumberBorrowed() const;
-  void SetBorrowLimit(int limit);     
-  void DisplayInfo() const override;  // 实现父类方法
+  void SetBorrowLimit(int limit);
+  void DisplayInfo() const override;
 };
 
 #endif

@@ -34,6 +34,8 @@ bool Reader::CanBorrow() const {
   return (int)borrowed_items.size() < borrow_limit;
 }
 
+vector<Item*> Reader::GetBorrowedItems() const { return borrowed_items; }
+
 int Reader::GetNumberBorrowed() const { return borrowed_items.size(); }
 
 void Reader::SetBorrowLimit(int limit) {
