@@ -1,5 +1,6 @@
-PrintedBook,110008,Test Book1,true,2,Test Author1,0000000000,Shelf X
-EBook,120008,Test Book2,true,1,Test Author2,0000000001,xxx.com,30.2,PDF,1748186585
-DVD,210008,Test DVD1,true,3,Test Director1,123,mp4,true
-PrintedBook,10,Book One,true,1,Author,ISBN,Shelf A
-PrintedBook,10,Book One,true,1,Author,ISBN,Shelf A
+PrintedBook,110001,PB AA11,true,5,Chuck,1234567890123,Shelf A3
+PrintedBook,110002,PB AA22,true,2,Mike,1234567890124,Shelf A5
+EBook,120001,EB AA11,true,2,Yanny,1234567890125,https://example.com,35.5,PDF,1704067200
+EBook,120002,EB CC11,true,3,Wendy,1234567890126,https://example.com,42.6,EPUB,1747743660
+DVD,210001,DVD Sample1,true,5,Director A,95,mp4,true
+DVD,210002,DVD Sample2,true,4,Director B,120,mkv,true

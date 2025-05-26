@@ -1,8 +1,8 @@
-#include "LibrarySystemTest.h"
+#include "LibrarySystem.h"
 
 int main() {
-  LibrarySystemTest test;
-  test.RunTests();
+  LibrarySystem sys;
+  sys.Run();
 
   return 0;
 }

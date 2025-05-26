@@ -20,6 +20,9 @@ using namespace std;
 
 class LibrarySystem {
  private:
+  // program status
+  bool running = true;
+
   // main data
   vector<Item*> items;
   vector<User*> users;
@@ -43,6 +46,8 @@ class LibrarySystem {
   void LoadUsers();  // load user info from CSV
   User* Authenticate(const string& username, const string& password,
                      const string& role);
+  void LoadBorrowedRecords();
+  void SaveBorrowedRecords();
   void ShowLoginMenu();
 
   void AdminMenu(Admin* admin);
