@@ -1,6 +1,10 @@
 #ifndef LIBRARY_SYSTEM_H
 #define LIBRARY_SYSTEM_H
 
+#include <algorithm>
+#include <ctime>
+#include <iomanip>
+#include <sstream>
 #include <string>
 #include <vector>
 
@@ -27,6 +31,14 @@ class LibrarySystem {
   vector<Item*> items;
   vector<User*> users;
 
+  // next ID counters for each item type (start from 8-digit base)
+  // prefix 11-PrintedBook
+  // prefix 12-EBook
+  // prefix 21-DVD
+  int next_pbk_id = 11000001;
+  int next_ebk_id = 12000001;
+  int next_dvd_id = 21000001;
+
   // file paths
   const string inventory_file_path = "./DataFiles/inventory.csv";
   const string user_file_path = "./DataFiles/users.csv";
@@ -48,8 +60,9 @@ class LibrarySystem {
                      const string& role);
   void LoadBorrowedRecords();
   void SaveBorrowedRecords();
-  void ShowLoginMenu();
+  void InitNextIdsFromItems();
 
+  void ShowLoginMenu();
   void AdminMenu(Admin* admin);
   void ReaderMenu(Reader* reader);
 };
