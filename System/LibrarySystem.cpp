@@ -106,11 +106,6 @@ void LibrarySystem::InitNextIdsFromItems() {
       next_dvd_id = max(next_dvd_id, id + 1);
     }
   }
-
-  // 处于测试的目的可以加上，后面删了
-  cout << "[InitNextIds] Next PrintedBook ID: " << next_pbk_id << "\n";
-  cout << "[InitNextIds] Next EBook ID:       " << next_ebk_id << "\n";
-  cout << "[InitNextIds] Next DVD ID:         " << next_dvd_id << "\n";
 }
 
 void LibrarySystem::LoadUsers() {
