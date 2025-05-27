@@ -1,7 +1,7 @@
 #include "Reader.h"
 
 Reader::Reader(int id, const string& usn, const string& psw)
-    : User(id, usn, psw, "reader"), borrow_limit(5) {}
+    : User(id, usn, psw, "reader"), borrow_limit(1) {}
 
 bool Reader::BorrowItem(Item* item) {
   // item not available

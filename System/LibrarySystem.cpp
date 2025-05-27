@@ -722,6 +722,13 @@ void LibrarySystem::ReaderMenu(Reader* reader) {
       system("clear");
 
       cout << "========== Borrow Item ==========\n";
+
+      if (!(reader->CanBorrow())) {
+        cout << "❌ Already borrowed enough items.\n";
+        PauseAndClear();
+        continue;
+      }
+
       cout << "Enter item ID to borrow: ";
 
       string id_input;
