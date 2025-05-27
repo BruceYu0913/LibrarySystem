@@ -1,9 +1,0 @@
-PrintedBook,11000001,PB AA11,true,5,Chuck,1234567890123,Shelf A3
-PrintedBook,11000002,PB AA22,true,2,Mike,1234567890124,Shelf A5
-EBook,12000001,EB AA11,true,2,Yanny,1234567890125,https://example.com,35.5,PDF,1704067200
-EBook,12000002,EB CC11,true,3,Wendy,1234567890126,https://example.com,42.6,EPUB,1747743660
-DVD,21000001,DVD Sample1,true,5,Director A,95,mp4,true
-DVD,21000002,DVD Sample2,true,4,Director B,120,mkv,true
-DVD,21000003,Man in Black,true,2,Charles,120,mp4,true
-EBook,12000003,Mao,true,5,Test Author,1234567890127,xxx.com,13.0,PDF,1752244200
-PrintedBook,11000003,Ha,true,3,Author12,12345678910235,N1

@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "../Item/Item.h"
-#include "../TransactionLogger.h"
+#include "../Tools/TransactionLogger.h"
 #include "User.h"
 
 class Admin : public User {

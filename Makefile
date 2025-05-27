@@ -12,10 +12,10 @@ TARGET = a
 
 # Source files
 SRCS = main.cpp \
-       LibrarySystem.cpp \
-       InventoryManager.cpp \
-	   TransactionLogger.cpp \
-	   Search.cpp \
+       ./System/LibrarySystem.cpp \
+       ./Tools/InventoryManager.cpp \
+	   ./Tools/TransactionLogger.cpp \
+	   ./Tools/Search.cpp \
        ./Item/PrintedBook.cpp \
 	   ./Item/EBook.cpp \
 	   ./Item/DVD.cpp \
